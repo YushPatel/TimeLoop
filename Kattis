@@ -1,0 +1,21 @@
+using System;
+
+namespace StuckInATimeLoop
+{
+    // Creates the class
+    class Solution
+    {
+        static void Main(string[] args)
+        {
+            // Converts user input into integer
+            int num = int.Parse(Console.ReadLine());
+
+            // Loop starts at 1 and goes up in increments
+            for (int x = 1; x <= num; x++)
+            {
+                // Phrase is used for every line when ran
+                Console.WriteLine(x + " " + "Abracadabra");
+            }
+        }
+    }
+}
